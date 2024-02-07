@@ -81,6 +81,7 @@
 }
 .menu-right span{
     font-size: 18px;
+    padding: 0px 9px 0px 0px;
 }
 .menu-right li{
     color: white;
@@ -155,10 +156,12 @@
     display: flex;
     transition-duration: 2.5s;
 }
+
 .btn-pink {
-    background-color: rgb(52, 49, 49);
+    background-color: rgb(52, 49, 49);
     width: fit-content;
     color: white;
+    background-color: #28313A;
     padding: 0.8rem 2.3rem;
     box-shadow: 5px 5px 7px 0px #2b2a2a3f;
     font-size: 18px;
@@ -167,16 +170,17 @@
     border-radius: 0.75rem;
     font-weight: 500;
     position: relative;
-    width: 160px;
+    width: 110px;
     /* margin-top: 10px; */
-    height: 60px;
+    height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     gap: 10px;
-  }
-  .btn-pink::before {
+} 
+
+.btn-pink::before {
     content: "";
     position: absolute;
     background-color: #15bde3;
@@ -188,19 +192,43 @@
     z-index: -1;
     transform: scaleX(0);
     transform-origin: right;
-    transition: all 0.8s;
+    transition: all 0.3s;
   }
+
+
   .btn-pink:hover::before {
     transform: scaleX(1);
+ 
+
   }
   .btn-pink:hover {
     color:black;
-    /* border-radius: 0.75rem; */
+    border-radius: 0.75rem;
   }
-  .btn-pink svg:hover {
-    transform: translateX(20px);
+  .btn-pink i:hover {
+    transform: translateX(1px);
     transition: transform 0.3s ease;
-   
+    border-radius: 0.75rem;
+    
+}
+
+.svg-btn {
+    padding: 10px;
+    background-color:#15bde3;
+    border-radius: 6px;
+    width: 30px;
+    height: 31px;
+    color: white;
+}
+
+
+.svg-btn :hover {
+    background-color:#28313A;
+}
+
+.svg-btn i {
+    padding: 7px;
+    
 }
 
 .ul-1{

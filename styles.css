@@ -1339,20 +1339,20 @@ a {
 
 @media screen and (max-device-width: 480px)  and (orientation: portrait) {
    
-    .explorbox-bg {
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-        height: 144px;
-        width: 373px;
-        margin: -15px -6px 0px -15px;
-        padding: 24px 0px 30px 37px border-radius: 24px;
-        background-color: #141A20;
-    }
-
-.explorbox-bg span {
-    
+.explorbox-bg {
+    display: flex;
+    align-items: center;
+    height: 144px;
+    width: 373px;
+    margin:-15px -6px 0px -15px;
+    padding: 24px 0px 30px 37px 
+    border-radius: 24px;
+    background-color: #141A20;
 }
+
+/* .explorbox-bg span {
+    
+} */
 
 .explore-box {
     
@@ -1490,6 +1490,39 @@ a {
 
 
 
+.container-btn {
+    width: 588px;
+    height: 56px;
+    margin: 32px 0px 0px 0px;
+    /* background-color: white; */
+    
+}
 
+.container-btn {
+    width: 250px;
+    height: 60px;
+    align-items: center;
+}
+
+.container-btn :hover {
+    background-color: #17D5FF;
+    color: black;
+    transition: 0.9s ease;
+    box-shadow: 0 0 20px #17D5FF;
+}
+
+.container-btn span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 18px 16px;
+    border-radius: 15px;
+    font-weight: 530;
+}
+
+.container-btn span i{
+    padding: 4px 14px;
+}
 
 
